@@ -29,11 +29,7 @@ int main(){
     // changeA(a);//alias
     // cout<<"inside main function : "<<a<<endl;//20
     //array pointer
-    int arr[] = {1,2,3,4,5};
-    int* ptr2;
-    int* ptr1 = ptr2 + 2;//108
-    cout <<ptr1 - ptr2 <<endl; //2
-    return 0;
+    
     // cout<<*arr<<endl;//pointer=>1
     // cout<<*(arr + 1) <<endl;//pointer=>2
     // cout<<*(arr + 2) <<endl;//pointer=>3
@@ -46,7 +42,18 @@ int main(){
     // ptr = ptr + 2;
     // cout << ptr <<endl; //+4
     // return 0;
-  
+//   relational operators 
+int arr[] = {1,2,3,4,5};
+int* ptr1;
+// int* ptr2 ;
+int* ptr2 = ptr1;
+cout << ptr1 << endl;
+cout <<ptr2 <<endl;
+cout <<(ptr1 == ptr2) <<endl;
+cout <<(ptr1 != ptr2) <<endl;
+cout <<(ptr1 > ptr2) <<endl;
+cout <<(ptr1 < ptr2) <<endl;
+return 0;
     
    
 }
