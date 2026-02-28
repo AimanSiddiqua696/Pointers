@@ -6,5 +6,6 @@ int main(){
     int** parptr = &ptr;
     cout << &ptr << endl;
     cout << parptr << endl;
+    cout << *(&a) <<endl;
     return 0;
 }
