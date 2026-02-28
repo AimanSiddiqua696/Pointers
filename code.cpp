@@ -28,17 +28,20 @@ int main(){
     // // changeA(&a); //pointers
     // changeA(a);//alias
     // cout<<"inside main function : "<<a<<endl;//20
-    // //array pointer
-    // int arr[] = {1,2,3,4,5};
-    // cout<<arr<<endl;//pointer
-    // cout<<*arr<<endl;//pointer=>1
+    //array pointer
+    int arr[] = {1,2,3,4,5};
+    cout<<*arr<<endl;//pointer=>1
+    cout<<*(arr + 1) <<endl;//pointer=>2
+    cout<<*(arr + 2) <<endl;//pointer=>3
+    cout<<*(arr + 3) <<endl;//pointer=>4
+    cout<<*(arr + 4) <<endl;//pointer=>5
     // pointer arithmetic
-    int a = 10;
-    int* ptr = &a;
-    cout <<ptr <<endl;
-    ptr--;
-    cout << ptr <<endl; //+4
-    return 0;
+    // int a = 10;
+    // int* ptr = &a;
+    // cout <<ptr <<endl;
+    // ptr = ptr + 2;
+    // cout << ptr <<endl; //+4
+    // return 0;
   
     
    
