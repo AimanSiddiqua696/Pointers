@@ -30,11 +30,15 @@ int main(){
     // cout<<"inside main function : "<<a<<endl;//20
     //array pointer
     int arr[] = {1,2,3,4,5};
-    cout<<*arr<<endl;//pointer=>1
-    cout<<*(arr + 1) <<endl;//pointer=>2
-    cout<<*(arr + 2) <<endl;//pointer=>3
-    cout<<*(arr + 3) <<endl;//pointer=>4
-    cout<<*(arr + 4) <<endl;//pointer=>5
+    int* ptr2;
+    int* ptr1 = ptr2 + 2;//108
+    cout <<ptr1 - ptr2 <<endl; //2
+    return 0;
+    // cout<<*arr<<endl;//pointer=>1
+    // cout<<*(arr + 1) <<endl;//pointer=>2
+    // cout<<*(arr + 2) <<endl;//pointer=>3
+    // cout<<*(arr + 3) <<endl;//pointer=>4
+    // cout<<*(arr + 4) <<endl;//pointer=>5
     // pointer arithmetic
     // int a = 10;
     // int* ptr = &a;
