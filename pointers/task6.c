@@ -2,7 +2,7 @@
 
 // Function definition OUTSIDE main
 void swap(int *a, int *b) {
-    int temp = *a;
+    int temp = *a; //Go to the address stored in a and get the value
     *a = *b;
     *b = temp;
 }
