@@ -4,10 +4,10 @@ int main(){
     int marks;
     cout<<"Enter marks : ";
     cin>>marks;
-    if(marks > 90){
+    if(marks >= 90){
         cout<<"Grade : A\n";
 
-    } else if(marks > 80 && marks < 90){
+    } else if(marks >= 80 && marks < 90){
         cout<<"Grade : B\n";
     }
     else {
