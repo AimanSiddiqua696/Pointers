@@ -4,11 +4,11 @@ int main(){
     char ch;
     cout<<"Enter Character :";
     cin>>ch;
-    if(ch >='a' && ch <='z'){
-        cout<< "Lowercase";
+    if(ch >=65 && ch <=90){ //implicit conversion
+        cout<< "Uppercase";
              
     } else{
-        cout<<"Uppercase";
+        cout<<"Lowercase";
     }
     return 0;
 }
